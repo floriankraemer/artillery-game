@@ -1,0 +1,21 @@
+<Project Sdk="Godot.NET.Sdk/4.7.0">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Artillery.Game</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\src\Artillery.Core\Artillery.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="..\src\**" />
+    <Compile Remove="..\tests\**" />
+    <Compile Remove="..\tools\**" />
+    <Compile Remove=".godot/**" />
+    <Compile Remove="**/bin/**" />
+    <Compile Remove="**/obj/**" />
+    <None Remove=".godot/**" />
+  </ItemGroup>
+</Project>

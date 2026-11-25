@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/game/">
+    <Project Path="game/Artillery3D.csproj">
+      <BuildType Project="Debug" />
+    </Project>
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Artillery.Core/Artillery.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Artillery.Core.Tests/Artillery.Core.Tests.csproj" />
+  </Folder>
+</Solution>

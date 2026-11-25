@@ -1,0 +1,9 @@
+bin/
+obj/
+.godot/
+*.user
+.vs/
+artifacts/
+*.zip
+game/export_presets.cfg
+game/Artillery3D.sln
